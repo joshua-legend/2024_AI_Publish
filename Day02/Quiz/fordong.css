@@ -1,0 +1,22 @@
+.container {
+  /* 자식의 따라서 넓이가 결정됨 ㅅㄱ */
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  padding: 20px 18px 20px 18px;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}

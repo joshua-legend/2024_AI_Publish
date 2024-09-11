@@ -1,0 +1,25 @@
+.paletteBox {
+  padding: 30px 14px 10px 14px;
+  border-radius: 6px;
+}
+
+.hex {
+  text-transform: uppercase;
+}
+
+.color50 {
+  background-color: #f1f9fe;
+  border: 1px solid #f1f9fe;
+}
+.color100 {
+  background-color: #e2f1fc;
+  border: 1px solid #e2f1fc;
+}
+.color200 {
+  background-color: #bee3f9;
+  border: 1px solid #bee3f9;
+}
+.color300 {
+  background-color: #85ccf4;
+  border: 1px solid #85ccf4;
+}

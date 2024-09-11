@@ -1,0 +1,12 @@
+button {
+  background-color: #f4f4f4;
+  /* 12[top] 3[right] 6[bottom] 9[left] */
+  padding: 10px 10px 10px 10px;
+  border-radius: 6px;
+  border: 1px solid #f4f4f4;
+  /* font-family: "Courier New", Courier, monospace; */
+  /* line-height: 30px; 행간 */
+  /* text-transform: uppercase; 글 모양 바꾸기 */
+  /* word-spacing: 20px; 자간 */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

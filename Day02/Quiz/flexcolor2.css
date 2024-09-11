@@ -1,0 +1,46 @@
+.palette {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: end;
+}
+
+.one {
+  background-color: #1abc9c;
+}
+.two {
+  background-color: yellow;
+}
+.three {
+  background-color: red;
+}
+.four {
+  background-color: blue;
+}
+.five {
+  background-color: green;
+}
+.six {
+  background-color: orange;
+}
+.seven {
+  background-color: pink;
+}
+.eight {
+  background-color: black;
+}
+.nine {
+  background-color: lemonchiffon;
+}

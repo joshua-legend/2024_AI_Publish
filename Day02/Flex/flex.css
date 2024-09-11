@@ -1,0 +1,41 @@
+.box {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+}
+.test {
+  width: 100px;
+  height: 100px;
+}
+
+.one {
+  background-color: green;
+}
+.two {
+  background-color: yellow;
+}
+.three {
+  background-color: red;
+}
+
+.code {
+  justify-content: start;
+  justify-content: center;
+  justify-content: end;
+
+  /* 자식들이 공평하게 너비를 차지 */
+  justify-content: space-around;
+  /* 동일한 공백을 형성 */
+  justify-content: space-evenly;
+  /* 양 끝은 공백없이 배치 */
+  justify-content: space-between;
+
+  /* cross 축 */
+  align-items: start;
+  align-items: center;
+  align-items: end;
+}

@@ -1,0 +1,14 @@
+.box {
+  border: 1px solid red;
+  width: 300px;
+  height: 300px;
+}
+.yellow {
+  border: 1px solid yellow;
+}
+.green {
+  border: 1px solid green;
+}
+.blue {
+  border: 1px solid blue;
+}
