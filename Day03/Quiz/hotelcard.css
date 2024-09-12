@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "yg-jalnan";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.card {
+  width: 350px;
+  height: 450px;
+  border-radius: 20px;
+  background-size: cover;
+  padding: 20px 20px 0px 20px;
+}
+
+.villa {
+  background-image: url("villa.jpg");
+}
+.greece {
+  background-image: url("greece.jpg");
+}
+
+.contents {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.category {
+  font-family: "yg-jalnan";
+  color: white;
+  border-bottom: 1px solid white;
+  width: fit-content;
+  padding-bottom: 3px;
+}
+
+.event {
+  display: flex;
+  flex-direction: column;
+}
+
+.event > span {
+  font-family: "yg-jalnan";
+  color: white;
+  font-size: 26px;
+}
+
+.sub {
+  font-family: "yg-jalnan";
+  color: white;
+}

@@ -1,0 +1,44 @@
+.coffee {
+  width: 300px;
+  height: 400px;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.contents {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.album {
+  width: 200px;
+  height: 200px;
+  transition: all 0.2s;
+}
+.album:hover {
+  transform: scale(1.2) rotate(10deg);
+}
+
+.album > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.present {
+  border: 1px solid #243c84;
+  background-color: #243c84;
+  color: white;
+  font-weight: 700;
+}
