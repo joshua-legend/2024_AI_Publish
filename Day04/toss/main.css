@@ -1,0 +1,83 @@
+@import url("https://static.toss.im/tps/main.css");
+@import url("https://static.toss.im/tps/others.css");
+
+* {
+  font-family: "Toss Product Sans";
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://static.toss.im/assets/homepage/newtossim/new_main.png");
+  background-size: cover;
+}
+
+.centeredBox {
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+  padding-top: 150px;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.motto {
+  font-size: 66px;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.download {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.download > button {
+  font-size: 17px;
+  font-weight: 500;
+
+  background-color: rgba(0, 12, 30, 0.8);
+  color: white;
+  padding: 11px 22px;
+  border-radius: 10px;
+  /* none 없음 */
+  border: none;
+
+  /* 아이콘 & 글의 배치도 */
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  /* 마우스 올렸을 때 호버 시간 */
+  transition: all 0.3s;
+}
+
+.download > button:hover {
+  background-color: rgb(78, 89, 104);
+}
+
+.whiteBlur {
+  /* 포지션 잡기 */
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  /* 화이트 블러의 넓이와 높이  */
+  width: 100%;
+  height: 250px;
+  /* 그라데이션 하얀색 */
+  background: linear-gradient(
+    180deg,
+    white 0%,
+    white 59px,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
